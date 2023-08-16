@@ -1,1 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(55deg, #cb8ba8, rgb(255, 254, 254));
+    color: rgb(217, 20, 128);
+    cursor: url('star-cursor.png'), auto;
+}
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 116px;
+    text-transform: uppercase; /* Convertir el texto del título en mayúsculas */
+    letter-spacing: 3px; /* Espaciado entre letras */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.instagram-image {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.texto-tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.texto-tabla td {
+    padding: 10px;
+    border: 1px solid rgb(237, 192, 216);
+}
+
+.texto-tabla p {
+    margin: 5;
+    text-align: justify; /* Justificar el texto en las celdas */
+    
+}
+
+p {
+    text-decoration: inherit; /* Heredar la decoración de texto definida en :hover */
+}
+
+p:hover {
+    text-decoration: underline; /* Subraya el texto cuando el cursor está sobre él */
+}
 
