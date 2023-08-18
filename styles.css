@@ -74,4 +74,22 @@ p {
 p:hover {
     text-decoration: underline; /* Subraya el texto cuando el cursor está sobre él */
 }
+/* Estilo para el footer */
+footer {
+  background-color: #333; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilo para los enlaces en el footer */
+footer a {
+  color: #fff; /* Color de los enlaces */
+  text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilo para los enlaces en hover */
+footer a:hover {
+  text-decoration: underline; /* Subrayado al pasar el cursor */
+}
 
